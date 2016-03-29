@@ -1,4 +1,5 @@
 ﻿namespace BusinessLogic
-//test
-type Class1() = 
-    member this.X = "F#"
+
+type printName = class
+    static member name = "Tim Ververs"
+end

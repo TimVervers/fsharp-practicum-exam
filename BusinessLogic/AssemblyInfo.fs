@@ -7,12 +7,12 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("BusinessLogic")>]
-[<assembly: AssemblyDescription("")>]
+[<assembly: AssemblyTitle("fsharp-practicum-exam")>]
+[<assembly: AssemblyDescription("F# practicum exam about a 2D simulation of a supply chain with trucks, containers, and ships")>]
 [<assembly: AssemblyConfiguration("")>]
-[<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("BusinessLogic")>]
-[<assembly: AssemblyCopyright("Copyright ©  2016")>]
+[<assembly: AssemblyCompany("Tim Ververs")>]
+[<assembly: AssemblyProduct("F# Practicum Exam")>]
+[<assembly: AssemblyCopyright("Tim Ververs - Copyright ©  2016")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
 

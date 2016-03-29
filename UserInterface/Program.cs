@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BusinessLogic;
 
 namespace UserInterface
 {
@@ -11,7 +10,15 @@ namespace UserInterface
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(printName.name);
+			Console.WriteLine("Enter a number that will generate lines blocks");
+			string p = Console.ReadLine();
+
+			//Check if parsing is possible, or in f#??
+			foreach (var item in CodeFile.randomCode(int.Parse(p)))
+			{
+				Console.WriteLine(item);
+			}
+
 			Console.ReadKey();
 		}
 	}

@@ -1,10 +1,10 @@
-﻿namespace BusinessLogic
-
+﻿//This is the container module, defining the basic principles of a container.
 module Container
 
+// A discriminated union with empty cases (like enum)
 type ContainerState = 
-  | Unload
-  | Loading
-  | Loaded
-  | Shipping
-  | Unloading
+    | Empty
+    | Unloading
+    | Loading  
+    | Full
+    | Shipped

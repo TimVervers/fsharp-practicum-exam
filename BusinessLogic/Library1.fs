@@ -1,4 +1,4 @@
-﻿namespace BusinessLogic
+﻿module Library1
 
 // What do i need to create a fully operational deployment pipeline?
 // End goal: Stateless webservice running on production server

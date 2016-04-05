@@ -1,4 +1,4 @@
-﻿module Library1
+﻿module Framework
 
 // What do i need to create a fully operational deployment pipeline?
 // End goal: Stateless webservice running on production server
@@ -6,6 +6,10 @@
 // 1.
 // Version Control System - Git 
 // Bring code to GitHub by trucks
+
+// We need a codefile
+// We need a repository
+// We need a truck
 
 // 2.
 // GitHub calls Travis and asks him to test and compile code
@@ -27,3 +31,10 @@
 type printName = class
     static member name = "Tim Ververs"
 end
+
+//Check if the git command is valid
+let evaluateGitCommand (command:string) (expected:string) : bool =
+    if command = expected then 
+        true 
+    else 
+        false
